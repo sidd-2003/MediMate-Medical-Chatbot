@@ -5,6 +5,6 @@ setup(
     version= '0.0.0',
     author= 'Siddhant Dnyane',
     author_email= 'siddhantdnyane2003@gmail.com',
-    install_requires = ["langchain", "langchain-chroma", "langchain-community", "langchain-ollama", "ollama", "flask", "pypdf", "python-dotenv"],
+    install_requires = ["langchain", "langchain-chroma", "langchain-community", "langchain-ollama", "ollama", "flask", "pypdf"],
     packages= find_packages()
 )

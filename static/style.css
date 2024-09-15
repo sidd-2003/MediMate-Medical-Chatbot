@@ -1,9 +1,21 @@
 body,html{
 	height: 100%;
 	margin: 0;
-	background: rgb(44, 47, 59);
-   background: -webkit-linear-gradient(to right, rgb(40, 59, 34), rgb(54, 60, 70), rgb(32, 32, 43));
-	background: linear-gradient(to right, rgb(38, 51, 61), rgb(50, 55, 65), rgb(33, 33, 78));
+	background: linear-gradient(
+		191deg,
+		hsl(178deg 100% 37%) 0%,
+		hsl(183deg 100% 38%) 19%,
+		hsl(189deg 100% 41%) 27%,
+		hsl(194deg 100% 44%) 34%,
+		hsl(199deg 100% 47%) 41%,
+		hsl(203deg 100% 50%) 47%,
+		hsl(206deg 100% 50%) 53%,
+		hsl(208deg 100% 50%) 59%,
+		hsl(212deg 100% 50%) 66%,
+		hsl(217deg 100% 50%) 73%,
+		hsl(242deg 100% 64%) 81%,
+		hsl(276deg 100% 47%) 100%
+	);
 }
 
 .chat{
@@ -28,7 +40,7 @@ body,html{
 	border-bottom: 0 !important;
 }
 .card-footer{
-border-radius: 0 0 15px 15px !important;
+	border-radius: 0 0 15px 15px !important;
 	border-top: 0 !important;
 }
 .container{
